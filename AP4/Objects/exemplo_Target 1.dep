@@ -1,0 +1,13 @@
+Dependencies for Project 'exemplo', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x607B51B6)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I"D:\Programs\keil arm core\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129"--pd "__UVISION_VERSION SETA 536" --pd "TM4C1294NCPDT SETA 1"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\utils.s)(0x607B51B6)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I"D:\Programs\keil arm core\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129"--pd "__UVISION_VERSION SETA 536" --pd "TM4C1294NCPDT SETA 1"--list .\listings\utils.lst --xref -o .\objects\utils.o --depend .\objects\utils.d)
+F (.\main.c)(0x62B1C0E4)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"D:\Programs\keil arm core\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129"-D__UVISION_VERSION="536" -DTM4C1294NCPDT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (tm4c1294ncpdt.h)(0x607B51B8)
+I (D:\Programs\keil arm core\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (D:\Programs\keil arm core\ARM\ARMCC\include\stdio.h)(0x6025BE24)
+F (.\tm4c1294ncpdt.h)(0x607B51B8)()
+F (.\gpio.c)(0x62A87BCF)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"D:\Programs\keil arm core\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129"-D__UVISION_VERSION="536" -DTM4C1294NCPDT-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (D:\Programs\keil arm core\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+I (tm4c1294ncpdt.h)(0x607B51B8)
+F (.\interrupt.s)(0x6082268C)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I"D:\Programs\keil arm core\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129"--pd "__UVISION_VERSION SETA 536" --pd "TM4C1294NCPDT SETA 1"--list .\listings\interrupt.lst --xref -o .\objects\interrupt.o --depend .\objects\interrupt.d)
